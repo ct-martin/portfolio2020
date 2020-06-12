@@ -35,12 +35,6 @@
       >
         <v-col cols="12" md="10" class="py-0">
           <v-container fluid class="pt-0 text-center">
-            <v-btn text href="mailto:hello@ctmartin.me" :ripple="false">
-              Email
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
             <v-btn text nuxt to="/projects" :ripple="false">
               Projects
               <v-icon dark small>
@@ -70,7 +64,7 @@
       >
         <v-col cols="12" md="10" class="pt-0">
           <v-container fluid>
-            <h2 class="display-1 mb-4">
+            <h2 class="headline mb-4">
               Want to Talk?
             </h2>
             <v-row align="center" class="body-2 px-3">
