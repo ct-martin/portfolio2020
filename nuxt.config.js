@@ -11,9 +11,9 @@ export default {
       }
     }
   },
-  buildModules: ['@nuxt/typescript-build'],
-  css: [
-    '@/assets/theme/assets/css/main.scss'
+  buildModules: [
+    '@nuxt/typescript-build',
+    '@nuxtjs/vuetify'
   ],
   generate: {
     dir: 'public',
