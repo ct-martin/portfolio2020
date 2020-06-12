@@ -36,7 +36,6 @@ export default {
   loading: {
     color: 'black'
   },
-  mode: 'spa',
   modern: 'client',
   typescript: {
     typeCheck: {
