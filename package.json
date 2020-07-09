@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/ct-martin/portfolio2020#readme",
   "dependencies": {
-    "@nuxt/typescript-runtime": "^0.4.9",
-    "nuxt": "^2.12.2",
-    "vue-property-decorator": "^8.4.2"
+    "@nuxt/typescript-runtime": "^0.4.10",
+    "nuxt": "^2.13.3",
+    "vue-property-decorator": "^8.5.1"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^0.6.6",
+    "@nuxt/typescript-build": "^0.6.7",
     "@nuxtjs/eslint-config-typescript": "^1.0.2",
     "@nuxtjs/vuetify": "^1.11.2",
     "eslint": "^6.8.0",
