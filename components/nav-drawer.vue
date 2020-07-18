@@ -4,6 +4,7 @@
     app
     color="white"
     light
+    temporary
   >
     <v-list-item>
       <v-list-item-content>
