@@ -45,6 +45,17 @@
                   </v-card-text>
                 </v-card>
               </v-col>
+              <v-col cols="12" md="6" lg="4" offset-lg="1">
+                <v-card to="/projects/cma" nuxt tile>
+                  <v-img src="/img/projects/cma-card.jpg" height="200px" />
+                  <v-card-title>
+                    CMA
+                  </v-card-title>
+                  <v-card-text class="text--primary">
+                    Visualization of the Cleveland Museum of Art's collections.
+                  </v-card-text>
+                </v-card>
+              </v-col>
             </v-row>
           </v-container>
         </v-col>
