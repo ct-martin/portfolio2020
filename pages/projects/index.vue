@@ -38,7 +38,7 @@
                 <v-card to="/projects/si" nuxt tile>
                   <v-img src="/img/projects/si-card.jpg" height="200px" />
                   <v-card-title>
-                    SI
+                    SI Collections
                   </v-card-title>
                   <v-card-text class="text--primary">
                     Interactive visualization of the Smithsonian's 11 million-record Open Access dataset.
@@ -49,7 +49,7 @@
                 <v-card to="/projects/cma" nuxt tile>
                   <v-img src="/img/projects/cma-card.jpg" height="200px" />
                   <v-card-title>
-                    CMA
+                    CMA Collections
                   </v-card-title>
                   <v-card-text class="text--primary">
                     Visualization of the Cleveland Museum of Art's collections.
