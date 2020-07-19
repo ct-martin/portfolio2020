@@ -101,9 +101,9 @@
       >
         <v-col cols="12" md="10" class="py-0">
           <v-container fluid class="pt-0 text-center">
-            <v-btn text nuxt to="/projects" dark :ripple="false">
-              More
-              <v-icon dark small>
+            <v-btn text nuxt to="/projects" :ripple="false">
+              More Projects
+              <v-icon small>
                 mdi-arrow-right
               </v-icon>
             </v-btn>
