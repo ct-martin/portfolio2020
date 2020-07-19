@@ -8,19 +8,27 @@
         <v-col cols="12" md="10" class="pt-0">
           <v-container fluid>
             <h1 class="display-1 mb-4">
-              Name
+              Smithsonian Institute Collections Visualization
             </h1>
             <p>
-              What &amp; Background
+              Museum collections can also tell us about history and the values of society.
+              As one of the world's largest collections, the Smithsonian Collections are a prime target to dig in to.
+            </p>
+            <v-img alt="Screenshot of visualization" src="/img/projects/si.png" max-height="400px" contain class="mb-4" />
+            <p>
+              This visualization gives insight into the composition of the Smithsonian's collections, including <em>what</em>, <em>when</em>, and <em>where</em> items come from.
+              Specifically, the visualization looks at the unit (such as the National Museum of American History or the Human Studies Film Archives), country, and time (if within the last couple centuries) items come from.
+              Interaction enables filtering to a specific unit, allowing comparison in trends between units in addition to the whole.
             </p>
             <p>
-              How
-            </p>
-            <p>
-              Tech
+              Since the Open Access dataset contains 11 million records, the data is in its own way opaque.
+              At 26GB uncompressed, it's too large for me to load at once, much less interactively search through.
+              To accomplish this task, the data was sampled for basic structure (at the start of this project the format specification had not been released) and then processed with Python and Jupyter Lab.
+              After logging summaries and anomalies, string processing was used to clean up typos, inconsistencies, and similar issues.
+              Finally, a JSON file was created with the aggregated data.
             </p>
             <p class="mb-0">
-              Usage
+              At a technical level, the data was processed using command-line tools (including <code>grep</code>, <code>head</code>, <code>tail</code>, and <code>awk</code>), Python, Jupyter Lab, and Regex; the visualization was created with d3 and a fork of Semantic UI.
             </p>
           </v-container>
         </v-col>
@@ -31,26 +39,26 @@
       >
         <v-col cols="12" md="10" class="py-0">
           <v-container fluid class="pt-0 text-center">
-            <v-btn text href="" :ripple="false">
+            <v-btn text href="https://si.ctmartin.dev/" target="_blank" rel="noopener" :ripple="false">
               View
               <v-icon dark small>
                 mdi-arrow-right
               </v-icon>
             </v-btn>
-            <v-btn text href="" :ripple="false">
+            <v-btn text href="https://github.com/ct-martin/si-collections" target="_blank" rel="noopener" :ripple="false">
               GitHub
               <v-icon dark small>
                 mdi-arrow-right
               </v-icon>
             </v-btn>
-            <v-btn text href="" :ripple="false">
+            <v-btn text href="https://vis.ctmartin.me/museums/si/" target="_blank" rel="noopener" :ripple="false">
               Write-Up
               <v-icon dark small>
                 mdi-arrow-right
               </v-icon>
             </v-btn>
-            <v-btn text href="" :ripple="false">
-              Other Write-Up
+            <v-btn text to="/projects/cma" nuxt :ripple="false">
+              See Also: CMA Vis
               <v-icon dark small>
                 mdi-arrow-right
               </v-icon>
