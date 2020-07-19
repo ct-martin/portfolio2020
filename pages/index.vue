@@ -111,7 +111,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid class="white--text" style="background-color:darkslategrey">
+    <v-container fluid class="white--text" style="background-color:maroon">
       <v-row
         align="start"
         justify="center"
@@ -155,7 +155,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid class="white--text" style="background-color:maroon;">
+    <v-container fluid class="white--text" style="background-color:dimgrey;">
       <v-row
         align="center"
         justify="center"
