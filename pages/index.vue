@@ -111,7 +111,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid class="white--text" style="background-color:maroon">
+    <v-container fluid class="light-blue darken-1 white--text">
       <v-row
         align="start"
         justify="center"
@@ -155,7 +155,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid class="white--text" style="background-color:dimgrey;">
+    <v-container fluid class="light-blue darken-3 white--text">
       <v-row
         align="center"
         justify="center"
@@ -164,19 +164,13 @@
           <v-container fluid class="py-0">
             <p>Want to know more?</p>
             <v-row align="center" class="body-2">
-              <v-btn text nuxt to="/projects" dark small :ripple="false">
+              <v-btn text nuxt to="/projects" small dark :ripple="false">
                 Projects
                 <v-icon small>
                   mdi-arrow-right
                 </v-icon>
               </v-btn>
-              <v-btn text href="https://github.com/ct-martin" target="_blank" rel="noopener noreferrer" dark small :ripple="false">
-                GitHub
-                <v-icon small>
-                  mdi-arrow-right
-                </v-icon>
-              </v-btn>
-              <v-btn text nuxt to="/resume" dark small :ripple="false">
+              <v-btn text nuxt to="/resume" small dark :ripple="false">
                 Resume
                 <v-icon small>
                   mdi-arrow-right
@@ -221,24 +215,14 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid class="light-blue darken-4 white--text">
+    <v-container fluid class="cyan lighten-3 py-5">
       <v-row
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="pt-0">
+        <v-col cols="12" md="10">
           <v-container fluid>
-            <h2 class="display-1 mb-4">
-              Want to Talk?
-            </h2>
-            <v-row align="center" class="body-2 px-3">
-              <v-btn href="mailto:christian@ctmartin.me" light small :ripple="false">
-                <v-icon left>
-                  mdi-email
-                </v-icon>
-                Email
-              </v-btn>
-            </v-row>
+            <Contact />
           </v-container>
         </v-col>
       </v-row>
@@ -248,8 +232,12 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import Contact from '~/components/contact.vue'
 
 export default Vue.extend({
+  components: {
+    Contact
+  },
   data () {
     return {
       skillsBackEnd: [

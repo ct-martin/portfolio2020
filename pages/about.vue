@@ -47,37 +47,32 @@
                 mdi-arrow-right
               </v-icon>
             </v-btn>
-            <v-btn text href="https://github.com/ct-martin" target="_blank" rel="noopener noreferrer" :ripple="false">
-              GitHub
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
           </v-container>
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid>
+    <v-container fluid class="teal lighten-3 py-5">
       <v-row
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="pt-0">
+        <v-col cols="12" md="10">
           <v-container fluid>
-            <h2 class="headline mb-4">
-              Want to Talk?
-            </h2>
-            <v-row align="center" class="body-2 px-3">
-              <v-btn href="mailto:christian@ctmartin.me" dark small :ripple="false">
-                <v-icon left>
-                  mdi-email
-                </v-icon>
-                Email
-              </v-btn>
-            </v-row>
+            <Contact />
           </v-container>
         </v-col>
       </v-row>
     </v-container>
   </main>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+import Contact from '~/components/contact.vue'
+
+export default Vue.extend({
+  components: {
+    Contact
+  }
+})
+</script>
