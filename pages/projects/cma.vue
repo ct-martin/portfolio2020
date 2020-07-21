@@ -26,36 +26,96 @@
           </v-container>
         </v-col>
       </v-row>
+    </v-container>
+    <v-container fluid class="blue lighten-5 py-6">
       <v-row
         align="center"
         justify="center"
       >
         <v-col cols="12" md="10" class="py-0">
-          <v-container fluid class="pt-0 text-center">
-            <v-btn text href="https://vis.ctmartin.me/museums/cma/view/" target="_blank" rel="noopener" :ripple="false">
-              View
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
-            <v-btn text href="https://github.com/ct-martin/vis/tree/master/static/museums/cma/view" target="_blank" rel="noopener" :ripple="false">
-              GitHub
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
-            <v-btn text href="https://vis.ctmartin.me/museums/cma/" target="_blank" rel="noopener" :ripple="false">
-              Write-Up
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
-            <v-btn text to="/projects/si" nuxt :ripple="false">
-              See also: SI Vis
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
+          <v-container fluid>
+            <v-card class="mb-4" href="https://vis.ctmartin.me/museums/cma/view/" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-img src="/img/projects/cma-card.jpg" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    See it
+                  </v-card-title>
+                  <v-card-subtitle>
+                    Read &amp; interact with it yourself
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card class="mb-4" href="https://github.com/ct-martin/vis/tree/master/static/museums/cma/view" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-github
+                  </v-icon>
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    GitHub
+                  </v-card-title>
+                  <v-card-subtitle>
+                    See the code
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card class="mb-4" href="https://vis.ctmartin.me/museums/cma/" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-img src="/icon.png" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    Write-Up
+                  </v-card-title>
+                  <v-card-subtitle>
+                    More about the process and considerations
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card to="/projects/si" nuxt>
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-img src="/img/projects/si-card.jpg" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    See Also
+                  </v-card-title>
+                  <v-card-subtitle>
+                    Smithsonian Institute Collections Visualization
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
           </v-container>
         </v-col>
       </v-row>

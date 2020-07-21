@@ -27,42 +27,118 @@
           </v-container>
         </v-col>
       </v-row>
+    </v-container>
+    <v-container fluid class="purple lighten-5 py-6">
       <v-row
         align="center"
         justify="center"
       >
         <v-col cols="12" md="10" class="py-0">
-          <v-container fluid class="pt-0 text-center">
-            <v-btn text href="https://find.ctmartin.me/" target="_blank" rel="noopener" :ripple="false">
-              View
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
-            <v-btn text href="https://github.com/ct-martin/find.ctmartin.me" target="_blank" rel="noopener" :ripple="false">
-              GitHub
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
-            <v-btn text href="https://github.com/ct-martin/find.ctmartin.me/blob/master/README.md" target="_blank" rel="noopener" :ripple="false">
-              Find Write-Up
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
-            <v-btn text href="https://vis.ctmartin.me/api-in-mermaid/#more-mermaid" target="_blank" rel="noopener" :ripple="false">
-              Find-based Visualizations
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
-            <v-btn text href="https://blog.ctmartin.me/2020/04/schema-api-and-search/" target="_blank" rel="noopener" :ripple="false">
-              API Building Write-Up
-              <v-icon dark small>
-                mdi-arrow-right
-              </v-icon>
-            </v-btn>
+          <v-container fluid>
+            <v-card class="mb-4" href="https://find.ctmartin.me/" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-img src="/img/projects/find-card.jpg" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    Try it
+                  </v-card-title>
+                  <v-card-subtitle>
+                    See &amp; interact with it yourself
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card class="mb-4" href="https://github.com/ct-martin/find.ctmartin.me" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-github
+                  </v-icon>
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    GitHub
+                  </v-card-title>
+                  <v-card-subtitle>
+                    See the code
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card class="mb-4" href="https://github.com/ct-martin/find.ctmartin.me/blob/master/README.md" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-github
+                  </v-icon>
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    Technical Write-Up
+                  </v-card-title>
+                  <v-card-subtitle>
+                    README with Schema support and mappings
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card class="mb-4" href="https://vis.ctmartin.me/api-in-mermaid/#more-mermaid" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-img src="/icon.png" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    Find-based Visualizations
+                  </v-card-title>
+                  <v-card-subtitle>
+                    Visualizing Schema mappings, data flow, and deployment
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card href="https://blog.ctmartin.me/2020/04/schema-api-and-search/" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-img src="/icon.png" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    API Building Write-Up
+                  </v-card-title>
+                  <v-card-subtitle>
+                    How I created the Schema API Find uses
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
           </v-container>
         </v-col>
       </v-row>
