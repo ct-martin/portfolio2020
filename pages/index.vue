@@ -153,6 +153,42 @@
             </div>
           </v-container>
         </v-col>
+        <v-col cols="12" md="5" lg="3" offset-lg="1" class="pt-0">
+          <v-container fluid>
+            <h3 class="headline mb-4">
+              Dev Tools
+            </h3>
+            <div>
+              <v-chip
+                v-for="skill in skillsTooling"
+                :key="skill"
+                class="ma-1"
+                color="white"
+                label
+              >
+                {{ skill }}
+              </v-chip>
+            </div>
+          </v-container>
+        </v-col>
+        <v-col cols="12" md="5" lg="3" offset-lg="1" class="pt-0">
+          <v-container fluid>
+            <h3 class="headline mb-4">
+              Sysadmin
+            </h3>
+            <div>
+              <v-chip
+                v-for="skill in skillsServers"
+                :key="skill"
+                class="ma-1"
+                color="white"
+                label
+              >
+                {{ skill }}
+              </v-chip>
+            </div>
+          </v-container>
+        </v-col>
       </v-row>
     </v-container>
     <v-container fluid class="light-blue darken-3 white--text">
@@ -241,28 +277,33 @@ export default Vue.extend({
   data () {
     return {
       skillsBackEnd: [
+        'Serverless/FaaS',
+        'Node',
         'MySQL',
         'Redis',
-        'Node',
         'PHP',
         'Python',
-        'Nginx',
-        'Bash',
-        'Linux',
-        'Apache',
-        'MongoDB',
-        'Docker'
+        'MongoDB'
       ],
       skillsFrontEnd: [
         'TypeScript',
         'SASS',
-        'Git',
-        'CI/CD',
         'Angular',
         'Vue',
         'React',
         'd3',
         'WebSockets'
+      ],
+      skillsServers: [
+        'Nginx',
+        'Apache',
+        'Bash',
+        'Linux'
+      ],
+      skillsTooling: [
+        'Git',
+        'CI/CD',
+        'Docker'
       ]
     }
   }
