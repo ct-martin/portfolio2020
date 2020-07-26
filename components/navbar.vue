@@ -4,7 +4,7 @@
     color="white"
     light
   >
-    <v-app-bar-nav-icon class="d-md-none" @click="$emit('update:drawer')" />
+    <v-app-bar-nav-icon aria-label="open sidebar" class="d-md-none" @click="$emit('update:drawer')" />
 
     <v-toolbar-title>
       Christian Martin
