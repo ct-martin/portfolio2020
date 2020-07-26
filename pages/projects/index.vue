@@ -122,7 +122,7 @@
                 </v-avatar>
               </div>
             </v-card>
-            <v-card class="mb-4" href="https://2018.ctmartin.dev/" target="_blank" rel="noopener">
+            <v-card class="mb-4" href="https://find.ctmartin.dev/" target="_blank" rel="noopener">
               <div class="d-flex flex-no-wrap">
                 <v-avatar class="ma-3" size="75" tile>
                   <v-img src="/img/projects/find-card.jpg" />
