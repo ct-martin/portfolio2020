@@ -34,7 +34,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid class="green lighten-5 py-6">
+    <v-container fluid class="green lighten-4 py-6">
       <v-row
         align="center"
         justify="center"
