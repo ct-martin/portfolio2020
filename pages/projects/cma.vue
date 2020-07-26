@@ -5,7 +5,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="pt-0">
+        <v-col cols="12" md="10" xl="8" class="pt-0">
           <v-container fluid>
             <h1 class="display-1 mb-4">
               Cleveland Museum of Art Collections Visualization
@@ -32,7 +32,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-0">
           <v-container fluid>
             <v-card class="mb-4" href="https://vis.ctmartin.me/museums/cma/view/" target="_blank" rel="noopener">
               <div class="d-flex flex-no-wrap">

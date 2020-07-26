@@ -6,7 +6,7 @@
         justify="center"
         style="min-height:250px;"
       >
-        <v-col cols="12" md="10">
+        <v-col cols="12" md="10" xl="8">
           <v-container fluid>
             <h1 class="display-3 mb-4 ml-n1">
               Christian Martin
@@ -23,7 +23,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-0">
           <v-container fluid class="py-0">
             <v-row align="center" class="ma-0 body-2">
               <span>Can't find something?&nbsp;</span>
@@ -51,7 +51,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-0">
           <v-container fluid>
             <h2 class="display-1">
               Projects
@@ -63,7 +63,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="pt-0">
+        <v-col cols="12" md="10" xl="8" class="pt-0">
           <v-container fluid class="pt-0">
             <v-row
               align="stretch"
@@ -80,7 +80,7 @@
                   </v-card-text>
                 </v-card>
               </v-col>
-              <v-col cols="12" md="6" lg="4" offset-lg="1">
+              <v-col cols="12" md="6" lg="4">
                 <v-card to="/projects/si" nuxt tile>
                   <v-img src="/img/projects/si-card.jpg" height="200px" />
                   <v-card-title>
@@ -99,7 +99,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-0">
           <v-container fluid class="pt-0 text-center">
             <v-btn text nuxt to="/projects" :ripple="false">
               More Projects
@@ -113,80 +113,89 @@
     </v-container>
     <v-container fluid class="light-blue darken-1 white--text">
       <v-row
-        align="start"
+        align="center"
         justify="center"
-        class="text-center"
       >
-        <v-col cols="12" md="5" lg="3" class="pt-0">
-          <v-container fluid>
-            <h3 class="headline mb-4">
-              Front-end
-            </h3>
-            <div>
-              <v-chip
-                v-for="skill in skillsFrontEnd"
-                :key="skill"
-                class="ma-1"
-                color="white"
-                label
-              >
-                {{ skill }}
-              </v-chip>
-            </div>
-          </v-container>
-        </v-col>
-        <v-col cols="12" md="5" lg="3" offset-lg="1" class="pt-0">
-          <v-container fluid>
-            <h3 class="headline mb-4">
-              Back-end
-            </h3>
-            <div>
-              <v-chip
-                v-for="skill in skillsBackEnd"
-                :key="skill"
-                class="ma-1"
-                color="white"
-                label
-              >
-                {{ skill }}
-              </v-chip>
-            </div>
-          </v-container>
-        </v-col>
-        <v-col cols="12" md="5" lg="3" offset-lg="1" class="pt-0">
-          <v-container fluid>
-            <h3 class="headline mb-4">
-              Dev Tools
-            </h3>
-            <div>
-              <v-chip
-                v-for="skill in skillsTooling"
-                :key="skill"
-                class="ma-1"
-                color="white"
-                label
-              >
-                {{ skill }}
-              </v-chip>
-            </div>
-          </v-container>
-        </v-col>
-        <v-col cols="12" md="5" lg="3" offset-lg="1" class="pt-0">
-          <v-container fluid>
-            <h3 class="headline mb-4">
-              Sysadmin
-            </h3>
-            <div>
-              <v-chip
-                v-for="skill in skillsServers"
-                :key="skill"
-                class="ma-1"
-                color="white"
-                label
-              >
-                {{ skill }}
-              </v-chip>
-            </div>
+        <v-col cols="12" md="10" xl="8">
+          <v-container fluid class="py-0">
+            <v-row
+              align="start"
+              justify="center"
+              class="text-center"
+            >
+              <v-col cols="12" md="5" lg="4" xl="3" class="pt-0">
+                <v-container fluid>
+                  <h3 class="headline mb-4">
+                    Front-end
+                  </h3>
+                  <div>
+                    <v-chip
+                      v-for="skill in skillsFrontEnd"
+                      :key="skill"
+                      class="ma-1"
+                      color="white"
+                      label
+                    >
+                      {{ skill }}
+                    </v-chip>
+                  </div>
+                </v-container>
+              </v-col>
+              <v-col cols="12" md="5" lg="4" offset-lg="1" xl="3" offset-xl="0" class="pt-0">
+                <v-container fluid>
+                  <h3 class="headline mb-4">
+                    Back-end
+                  </h3>
+                  <div>
+                    <v-chip
+                      v-for="skill in skillsBackEnd"
+                      :key="skill"
+                      class="ma-1"
+                      color="white"
+                      label
+                    >
+                      {{ skill }}
+                    </v-chip>
+                  </div>
+                </v-container>
+              </v-col>
+              <v-col cols="12" md="5" lg="4" xl="3" class="pt-0">
+                <v-container fluid>
+                  <h3 class="headline mb-4">
+                    Dev Tools
+                  </h3>
+                  <div>
+                    <v-chip
+                      v-for="skill in skillsTooling"
+                      :key="skill"
+                      class="ma-1"
+                      color="white"
+                      label
+                    >
+                      {{ skill }}
+                    </v-chip>
+                  </div>
+                </v-container>
+              </v-col>
+              <v-col cols="12" md="5" lg="4" offset-lg="1" xl="3" offset-xl="0" class="pt-0">
+                <v-container fluid>
+                  <h3 class="headline mb-4">
+                    Servers
+                  </h3>
+                  <div>
+                    <v-chip
+                      v-for="skill in skillsServers"
+                      :key="skill"
+                      class="ma-1"
+                      color="white"
+                      label
+                    >
+                      {{ skill }}
+                    </v-chip>
+                  </div>
+                </v-container>
+              </v-col>
+            </v-row>
           </v-container>
         </v-col>
       </v-row>
@@ -196,7 +205,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-0">
           <v-container fluid class="py-0">
             <p>Want to know more?</p>
             <v-row align="center" class="body-2">
@@ -222,7 +231,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="pt-0">
+        <v-col cols="12" md="10" xl="8" class="pt-0">
           <v-container fluid>
             <h2 class="display-1 mb-4">
               Hey There!
@@ -239,7 +248,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-0">
           <v-container fluid class="pt-0 text-center">
             <v-btn text nuxt to="/about" :ripple="false">
               About Me
@@ -256,7 +265,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10">
+        <v-col cols="12" md="10" xl="8">
           <v-container fluid>
             <Contact />
           </v-container>
@@ -298,7 +307,9 @@ export default Vue.extend({
         'Nginx',
         'Apache',
         'Bash',
-        'Linux'
+        'Linux',
+        'Virtualization',
+        'Networking'
       ],
       skillsTooling: [
         'Git',

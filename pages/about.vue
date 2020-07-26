@@ -5,7 +5,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="pt-0">
+        <v-col cols="12" md="10" xl="8" class="pt-0">
           <v-container fluid>
             <h1 class="display-1 mb-4">
               Hey There!
@@ -33,7 +33,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-0">
           <v-container fluid class="pt-0 text-center">
             <v-btn text nuxt to="/projects" :ripple="false">
               Projects
@@ -56,7 +56,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10">
+        <v-col cols="12" md="10" xl="8">
           <v-container fluid>
             <Contact />
           </v-container>

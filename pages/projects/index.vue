@@ -5,7 +5,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-0">
           <v-container fluid>
             <h1 class="display-1 mb-0">
               Projects
@@ -17,7 +17,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="pt-0">
+        <v-col cols="12" md="10" xl="8" class="pt-0">
           <v-container fluid class="pt-0">
             <v-row
               align="stretch"
@@ -34,7 +34,7 @@
                   </v-card-text>
                 </v-card>
               </v-col>
-              <v-col cols="12" md="6" lg="4" offset-lg="1">
+              <v-col cols="12" md="6" lg="4">
                 <v-card to="/projects/si" nuxt tile>
                   <v-img src="/img/projects/si-card.jpg" height="200px" />
                   <v-card-title>
@@ -45,7 +45,7 @@
                   </v-card-text>
                 </v-card>
               </v-col>
-              <v-col cols="12" md="6" lg="4" offset-lg="1">
+              <v-col cols="12" md="6" lg="4">
                 <v-card to="/projects/oembed" nuxt tile>
                   <v-img src="/img/projects/oembed-json.png" height="200px" />
                   <v-card-title>
@@ -56,7 +56,7 @@
                   </v-card-text>
                 </v-card>
               </v-col>
-              <v-col cols="12" md="6" lg="4" offset-lg="1">
+              <v-col cols="12" md="6" lg="4">
                 <v-card to="/projects/cma" nuxt tile>
                   <v-img src="/img/projects/cma-card.jpg" height="200px" />
                   <v-card-title>

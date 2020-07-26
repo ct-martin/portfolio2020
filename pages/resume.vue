@@ -5,7 +5,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" class="pt-0">
+        <v-col cols="12" md="10" xl="8" class="pt-0">
           <v-container fluid>
             <h1 class="display-1 mb-4">
               Resume
