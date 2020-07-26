@@ -46,6 +46,17 @@
                 </v-card>
               </v-col>
               <v-col cols="12" md="6" lg="4" offset-lg="1">
+                <v-card to="/projects/oembed" nuxt tile>
+                  <v-img src="/img/projects/oembed-json.png" height="200px" />
+                  <v-card-title>
+                    Serverless oEmbed
+                  </v-card-title>
+                  <v-card-text class="text--primary">
+                    Cloudflare Workers script to scrape sites for metadata and output oEmbed.
+                  </v-card-text>
+                </v-card>
+              </v-col>
+              <v-col cols="12" md="6" lg="4" offset-lg="1">
                 <v-card to="/projects/cma" nuxt tile>
                   <v-img src="/img/projects/cma-card.jpg" height="200px" />
                   <v-card-title>
