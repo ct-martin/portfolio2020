@@ -72,5 +72,99 @@
         </v-col>
       </v-row>
     </v-container>
+    <v-container fluid class="red lighten-2 py-6">
+      <v-row
+        align="center"
+        justify="center"
+      >
+        <v-col cols="12" md="10" xl="8" class="py-0">
+          <v-container fluid>
+            <v-card class="mb-4" nuxt to="/resume">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <!--<v-img src="/img/resume-thumb.jpg" />-->
+                  <v-img src="/icon.png" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    Resume
+                  </v-card-title>
+                  <v-card-subtitle>
+                    Work experience &amp; skills
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card class="mb-4" href="https://github.com/ct-martin" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-github
+                  </v-icon>
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    GitHub
+                  </v-card-title>
+                  <v-card-subtitle>
+                    See code
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card class="mb-4" href="https://2018.ctmartin.dev/" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-img src="/img/projects/find-card.jpg" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    Search
+                  </v-card-title>
+                  <v-card-subtitle>
+                    Includes blog posts &amp; visualizations
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+            <v-card class="mb-4" href="https://2018.ctmartin.dev/" target="_blank" rel="noopener">
+              <div class="d-flex flex-no-wrap">
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-img src="/img/projects/old-portfolio-thumb.jpg" />
+                </v-avatar>
+                <div class="flex-grow-1">
+                  <v-card-title>
+                    Old Portfolio
+                  </v-card-title>
+                  <v-card-subtitle>
+                    Older projects, talks, and writing
+                  </v-card-subtitle>
+                </div>
+                <v-avatar class="ma-3" size="75" tile>
+                  <v-icon x-large>
+                    mdi-arrow-right
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+          </v-container>
+        </v-col>
+      </v-row>
+    </v-container>
   </main>
 </template>
