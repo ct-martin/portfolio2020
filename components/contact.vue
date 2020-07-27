@@ -12,7 +12,7 @@
         :rel="!!method[3] && method[3].startsWith('https://') ? 'noopener' : undefined"
       >
         <v-list-item-icon>
-          <v-icon>mdi-{{ method[1] }}</v-icon>
+          <v-icon>{{ method[1] }}</v-icon>
         </v-list-item-icon>
 
         <v-list-item-content>
@@ -26,17 +26,18 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { mdiEmail, mdiGithub, mdiGoogleHangouts, mdiLinkedin, mdiMicrosoftTeams } from '@mdi/js'
 
 export default Vue.extend({
   data () {
     return {
       contactMethods: [
         // [name, icon, text, url]
-        ['Email', 'email', 'christian@ctmartin.me', 'mailto:christian@ctmartin.me'],
-        ['LinkedIn', 'linkedin', '/in/ct-martin', 'https://www.linkedin.com/in/ct-martin/'],
-        ['GitHub', 'github', '@ct-martin', 'https://github.com/ct-martin'],
-        ['Microsoft Teams', 'microsoft-teams', 'christian@ctmartin.me', undefined],
-        ['Google Meet/Hangouts', 'google-hangouts', 'christian@ctmartin.me', undefined]
+        ['Email', mdiEmail, 'christian@ctmartin.me', 'mailto:christian@ctmartin.me'],
+        ['LinkedIn', mdiLinkedin, '/in/ct-martin', 'https://www.linkedin.com/in/ct-martin/'],
+        ['GitHub', mdiGithub, '@ct-martin', 'https://github.com/ct-martin'],
+        ['Microsoft Teams', mdiMicrosoftTeams, 'christian@ctmartin.me', undefined],
+        ['Google Meet/Hangouts', mdiGoogleHangouts, 'christian@ctmartin.me', undefined]
       ]
     }
   }

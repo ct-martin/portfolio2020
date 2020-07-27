@@ -41,5 +41,10 @@ export default {
     typeCheck: {
       eslint: true
     }
+  },
+  vuetify: {
+    defaultAssets: {
+      icons: false
+    }
   }
 }

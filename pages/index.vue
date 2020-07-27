@@ -38,7 +38,7 @@
               >
                 Search Here
                 <v-icon dark small>
-                  mdi-arrow-right
+                  {{ mdiArrowRight }}
                 </v-icon>
               </v-btn>
             </v-row>
@@ -104,7 +104,7 @@
             <v-btn text nuxt to="/projects" :ripple="false">
               More Projects
               <v-icon small>
-                mdi-arrow-right
+                {{ mdiArrowRight }}
               </v-icon>
             </v-btn>
           </v-container>
@@ -212,13 +212,13 @@
               <v-btn text nuxt to="/projects" small dark :ripple="false">
                 Projects
                 <v-icon small>
-                  mdi-arrow-right
+                  {{ mdiArrowRight }}
                 </v-icon>
               </v-btn>
               <v-btn text nuxt to="/resume" small dark :ripple="false">
                 Resume
                 <v-icon small>
-                  mdi-arrow-right
+                  {{ mdiArrowRight }}
                 </v-icon>
               </v-btn>
             </v-row>
@@ -253,7 +253,7 @@
             <v-btn text nuxt to="/about" :ripple="false">
               About Me
               <v-icon small>
-                mdi-arrow-right
+                {{ mdiArrowRight }}
               </v-icon>
             </v-btn>
           </v-container>
@@ -277,6 +277,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { mdiArrowRight } from '@mdi/js'
 import Contact from '~/components/contact.vue'
 
 export default Vue.extend({
@@ -285,6 +286,7 @@ export default Vue.extend({
   },
   data () {
     return {
+      mdiArrowRight,
       skillsBackEnd: [
         'Serverless/FaaS',
         'Node',

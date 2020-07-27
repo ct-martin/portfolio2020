@@ -57,7 +57,7 @@
               <div class="d-flex flex-no-wrap">
                 <v-avatar class="ma-3" size="75" tile>
                   <v-icon x-large>
-                    mdi-github
+                    {{ mdiGithub }}
                   </v-icon>
                 </v-avatar>
                 <div class="flex-grow-1">
@@ -70,7 +70,7 @@
                 </div>
                 <v-avatar class="ma-3" size="75" tile>
                   <v-icon x-large>
-                    mdi-arrow-right
+                    {{ mdiArrowRight }}
                   </v-icon>
                 </v-avatar>
               </div>
@@ -90,7 +90,7 @@
                 </div>
                 <v-avatar class="ma-3" size="75" tile>
                   <v-icon x-large>
-                    mdi-arrow-right
+                    {{ mdiArrowRight }}
                   </v-icon>
                 </v-avatar>
               </div>
@@ -110,7 +110,7 @@
                 </div>
                 <v-avatar class="ma-3" size="75" tile>
                   <v-icon x-large>
-                    mdi-arrow-right
+                    {{ mdiArrowRight }}
                   </v-icon>
                 </v-avatar>
               </div>
@@ -121,3 +121,14 @@
     </v-container>
   </main>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+import { mdiArrowRight, mdiGithub } from '@mdi/js'
+
+export default Vue.extend({
+  data () {
+    return { mdiArrowRight, mdiGithub }
+  }
+})
+</script>

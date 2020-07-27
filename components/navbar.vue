@@ -4,7 +4,9 @@
     color="white"
     light
   >
-    <v-app-bar-nav-icon aria-label="open sidebar" class="d-md-none" @click="$emit('update:drawer')" />
+    <v-app-bar-nav-icon aria-label="open sidebar" class="d-md-none" @click="$emit('update:drawer')">
+      <v-icon>{{ mdiMenu }}</v-icon>
+    </v-app-bar-nav-icon>
 
     <v-toolbar-title>
       Christian Martin
@@ -38,7 +40,7 @@
             v-on="on"
           >
             More
-            <v-icon>mdi-menu-down</v-icon>
+            <v-icon>{{ mdiMenuDown }}</v-icon>
           </v-btn>
         </template>
         <v-list>
@@ -86,3 +88,14 @@
     </div>
   </v-app-bar>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+import { mdiMenu, mdiMenuDown } from '@mdi/js'
+
+export default Vue.extend({
+  data () {
+    return { mdiMenu, mdiMenuDown }
+  }
+})
+</script>

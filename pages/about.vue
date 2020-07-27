@@ -38,13 +38,13 @@
             <v-btn text nuxt to="/projects" :ripple="false">
               Projects
               <v-icon dark small>
-                mdi-arrow-right
+                {{ mdiArrowRight }}
               </v-icon>
             </v-btn>
             <v-btn text nuxt to="/resume" :ripple="false">
               Resume
               <v-icon dark small>
-                mdi-arrow-right
+                {{ mdiArrowRight }}
               </v-icon>
             </v-btn>
           </v-container>
@@ -68,11 +68,15 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { mdiArrowRight } from '@mdi/js'
 import Contact from '~/components/contact.vue'
 
 export default Vue.extend({
   components: {
     Contact
+  },
+  data () {
+    return { mdiArrowRight }
   }
 })
 </script>
