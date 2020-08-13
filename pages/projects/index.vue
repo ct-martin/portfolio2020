@@ -57,6 +57,17 @@
                 </v-card>
               </v-col>
               <v-col cols="12" md="6" lg="4">
+                <v-card to="/projects/cloud" nuxt tile>
+                  <v-img src="/img/projects/cloud-card.jpg" height="200px" />
+                  <v-card-title>
+                    Hybrid Cloud &amp; The Edge
+                  </v-card-title>
+                  <v-card-text class="text--primary">
+                    Utilizing mixed environments (inc. cloud, edge, &amp; on-prem) to optimize for cost.
+                  </v-card-text>
+                </v-card>
+              </v-col>
+              <v-col cols="12" md="6" lg="4">
                 <v-card to="/projects/cma" nuxt tile>
                   <v-img src="/img/projects/cma-card.jpg" height="200px" />
                   <v-card-title>
