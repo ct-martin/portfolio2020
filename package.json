@@ -21,11 +21,11 @@
   "homepage": "https://github.com/ct-martin/portfolio2020#readme",
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.10",
-    "nuxt": "^2.13.3",
+    "nuxt": "^2.14.4",
     "vue-property-decorator": "^8.5.1"
   },
   "devDependencies": {
-    "@mdi/js": "^5.4.45",
+    "@mdi/js": "^5.5.55",
     "@nuxt/typescript-build": "^0.6.7",
     "@nuxtjs/eslint-config-typescript": "^1.0.2",
     "@nuxtjs/vuetify": "^1.11.2",
