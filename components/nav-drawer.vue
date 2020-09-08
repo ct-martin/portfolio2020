@@ -53,39 +53,14 @@
     <v-divider />
 
     <v-list nav>
-      <v-subheader>Personal Sites</v-subheader>
-
       <v-list-item-group>
         <v-list-item
-          href="https://vis.ctmartin.me/"
+          href="https://ctmartin.me/"
           target="_blank"
           rel="noopener"
         >
-          Visualizations
+          Personal Site
         </v-list-item>
-        <v-list-item
-          href="https://blog.ctmartin.me/"
-          target="_blank"
-          rel="noopener"
-        >
-          Blog
-        </v-list-item>
-        <v-list-item
-          href="https://food.ctmartin.me/"
-          target="_blank"
-          rel="noopener"
-        >
-          Food
-        </v-list-item>
-      </v-list-item-group>
-    </v-list>
-
-    <v-divider />
-
-    <v-list nav>
-      <v-subheader>Other Sites</v-subheader>
-
-      <v-list-item-group>
         <v-list-item
           href="https://github.com/ct-martin/"
           target="_blank"
