@@ -38,7 +38,7 @@ jobs:
         SSH_KEY: ${{ secrets.GIT_SSH_KEY }}
     - name: Deploy
       run: |-
-        rsync -avz --delete --progress -e "ssh -i ~/.ssh/id -o IdentitiesOnly=yes -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" public/ ci@$SERVER:~/www/ctmartin.me
+        rsync -avz --delete --progress -e "ssh -i ~/.ssh/id -o IdentitiesOnly=yes -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" public/ ci@$SERVER:~/www/ctmartin.dev
       env:
         SERVER: ${{ secrets.RSYNC_REMOTE_HOST }}
         SECRET_REMOTE_IP: ${{ secrets.REMOTE_IP }}
