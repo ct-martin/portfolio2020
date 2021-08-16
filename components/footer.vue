@@ -3,12 +3,13 @@
     <v-row
       align="center"
       justify="center"
+      class="my-0"
     >
-      <v-col cols="12" md="10" class="py-0">
+      <v-col cols="12" md="10" class="pb-0 pt-1">
         <v-container fluid>
           <v-row>
             <small>
-              &copy; 2020 Christian Martin
+              &copy; 2021 Christian Martin
             </small>
             <v-spacer />
             <small class="d-print-none">

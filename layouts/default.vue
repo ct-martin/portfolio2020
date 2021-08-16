@@ -2,9 +2,9 @@
   <v-app>
     <NavDrawer :drawer.sync="drawer" />
     <Navbar @update:drawer="drawer = !drawer" />
-    <v-content>
+    <v-main>
       <nuxt />
-    </v-content>
+    </v-main>
     <Footer />
   </v-app>
 </template>

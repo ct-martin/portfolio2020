@@ -23,7 +23,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" xl="8" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-1">
           <v-container fluid class="py-0">
             <v-row align="center" class="ma-0 body-2">
               <span>Can't find something?&nbsp;</span>
@@ -51,7 +51,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" xl="8" class="py-0">
+        <v-col cols="12" md="10" xl="8" class="py-1">
           <v-container fluid>
             <h2 class="display-1">
               Projects
@@ -205,8 +205,8 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" xl="8" class="py-0">
-          <v-container fluid class="py-0">
+        <v-col cols="12" md="10" xl="8">
+          <v-container fluid class="pt-0">
             <p>Want to know more?</p>
             <v-row align="center" class="body-2">
               <v-btn text nuxt to="/projects" small dark :ripple="false">
@@ -231,7 +231,7 @@
         align="center"
         justify="center"
       >
-        <v-col cols="12" md="10" xl="8" class="pt-0">
+        <v-col cols="12" md="10" xl="8">
           <v-container fluid>
             <h2 class="display-1 mb-4">
               Hey There!
