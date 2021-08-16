@@ -37,6 +37,9 @@ export default {
     color: 'black'
   },
   modern: 'client',
+  server: {
+    host: '0.0.0.0'
+  },
   typescript: {
     typeCheck: {
       eslint: true
